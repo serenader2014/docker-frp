@@ -2,6 +2,12 @@
 
 A docker container for the [frp](https://github.com/fatedier/frp) reverse proxy. Support server/client side mode.
 
+### Image tag
+
+#### v1.0.0
+
+Frp version: `0.9.2`
+
 ### How to use
 
 ```
@@ -24,8 +30,8 @@ Please use `host` network mode to make sure the container run properly.
 
 Specify which mode to run. Available options are:
 
-- `SERVER`: run as the server side.
-- `CLIENT`: run as the client side.
+- `server`: run as the server side.
+- `client`: run as the client side.
 
 Different mode requires different configuration file. For the server mode, it will require `/var/frp/config/frps.ini` file for the config. For the client mode, it will require `/var/frp/config/frpc.ini` file.
 
