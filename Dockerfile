@@ -1,7 +1,7 @@
 FROM ubuntu
 MAINTAINER serenader xyslive@gmail.com
 
-ENV FRP_VERSION 0.9.2
+ENV FRP_VERSION 0.13.0
 ENV MODE server
 
 RUN apt-get update && apt-get install curl -y && apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
